@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Página Web Básica con Bootstrap 3</title>
+
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="css/custom.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+  <![endif]-->
+  
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <!-- Sección de Header -->
+      <header>
+       <!-- Sección de Nav -->
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Proyecto bootstrap</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="#">Servicio</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mas Opciones <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Desarrollo web</a></li>
+                    <li><a href="#">Diseño de la pagina</a></li>
+                    <li><a href="#">Publicidad bootstrap</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Otras cosas</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+              
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Buscador">
+                </div>
+                <button type="submit" class="btn btn-default">Buscar</button>
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Usuario</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mi cuenta <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Ingresar cuenta existente</a></li>
+                    <li><a href="#">Registrarse por primera vez</a></li>
+                    <li><a href="#">Configuración de la pagina</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Cerrar Sesión</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav><!-- Fin Sección de Nav -->
+      </header><!-- Fin Sección de Header -->
+    </div>
+  </div>
+
+  <!-- Sección Jumbotron -->
+  <div class="container">
+    <div class="row">
+      <div class="jumbotron">
+        <h1>Web Básica con Bootstrap </h1>
+        <p>Bootstrap ofrece una serie de características que se pueden implementar en un sitio web. A continuación hablaremos de las posibilidades de esta herramienta.</p>
+        <p><a class="btn btn-primary btn-lg" role="button">Leer mas</a></p>
+      </div>
+    </div>
+  </div><!-- Fin Sección Jumbotron -->
+
+  <!-- Sección de Artículos -->
+  <div class="container" style="padding: 15px 10px;">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Que es bootstrap</h2>
+        <figure></figure>
+        Bootstrap es un framework CSS desarrollado por Twitter en 2010, para estandarizar las herramientas de la compañía.        <a href="#" class="btn btn-success">Leer mas</a>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Que es el framework</h2>
+        <figure></figure>
+        <p>El framework combina CSS y JavaScript para estilizar los elementos de una página HTML. Permite mucho más que, simplemente, cambiar el color de los botones y los enlaces.</p>
+        <a href="#" class="btn btn-success">Leer mas</a>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <h2>Características de bootstrap</h2>
+        <figure></figure>
+        <p>Una de las características principales de Bootstrap es permitir que la adaptación de la página se realice según el tipo de dispositivo utilizado.</p>
+        <a href="#" class="btn btn-success">Leer mas</a>
+      </div>
+
+    </div>
+  </div><!-- Fin Sección de Artículos -->
+
+  <!-- Sección de Multimedia -->
+  <div class="container" style="padding: 15px 10px;">
+    <div class="row">
+      
+    
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <div class="embed-responsive embed-responsive-4by3" style="padding-bottom: 66.9%;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XXllX0A_9KQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>          </div>
+          <div class="caption"> <p>Aprende Bootstrap en 10 minutos</p> </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <div class="embed-responsive embed-responsive-4by3" style="padding-bottom: 66.9%;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/H_K9Kfq-PNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  </div>
+              <p>Como usar Bootstrap 5</p>
+            </div>
+          </a>
+        </div>
+        
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <div class="embed-responsive embed-responsive-4by3" style="padding-bottom: 66.9%;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8pKjULHzs0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  </div>
+            <div class="caption"> <p>React Bootstrap Tutorial</p> </div>
+          </div>
+      </div>
+      </div>
+
+    </div>
+    <hr>
+  </div><!-- Sección de Multimedia -->
+
+  <!-- Sección Pie de Página -->
+  <footer class="footer-basic-centered">
+    <p class="footer-company-motto">Proyecto Bootstrap</p>
+    <p class="footer-Autor">Roberto  Carlos Saavedra Sierra 2023</p>
+  </footer><!-- Fin Sección Pie de Página -->
+
+
+<!-- Librerías y Archivos JS-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<!-- Bootstrap Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
